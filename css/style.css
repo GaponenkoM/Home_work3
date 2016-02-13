@@ -18,6 +18,12 @@
 }
 
 	/*HEADER*/
+.header_menu{
+	width: 966px;
+	height: 40px;
+	background-color: #525151;
+}	
+	
 .main_logo{
 	margin-bottom: 30px;
 }
@@ -32,7 +38,6 @@
 .head li{
 	display:inline-block;
 	display: -moz-inline-stack!important;
-	background-color: #525151;
 	color: #ffffff;
 	font-family: Arial, sans-serif;
 	font-size:15px;
@@ -62,9 +67,9 @@
 }
 
 .contacts_button{
-	width: 542px;
+	width: 150px;
 	height: 30px;
-	padding-left: 20px;
+	padding-left: 30px;
 	padding-top: 10px;
 }
 
@@ -115,25 +120,43 @@
 
 	/*CONTENT*/
 .content{
-	width: 678px;
-	height: 620px;
-	margin-top: 40px;
-	margin-left: 286px;	
+	float: right;
+	width: 695px;
+	height: 650px;
+	margin-top: 40px;	
+}
+
+.content .picture{
+	padding: 30px;
+	border: 1px solid #ccc;
+}
+
+.content .text{
+	padding: 25px 25px 35px 30px;
+	line-height: 25px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
 }
 
 	/*FOOTER*/
 .footer{
+	clear: both;
+	width: 966px;
+	height: 40px;
+	background-color: #e1e1e1;
+	color: #4f4f4f;
+}
+	
+.footer_menu{
 	margin-top: 20px;
 	font-size:0;
 	line-height:0;
 	letter-spacing:-1px;
 }
 
-.footer li{
+.footer_menu li{
 	display:inline-block;
 	display: -moz-inline-stack!important;
-	background-color: #e1e1e1;
-	color: #bbbbbb;
 	font-family: Arial, sans-serif;
 	font-size:15px;
 	line-height:normal;
@@ -162,25 +185,25 @@
 }
 
 .f_contacts_button{
-	width: 329px;
+	width: 150px;
 	height: 30px;
 	padding-top: 10px;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 
 .f_reserved_button{
-	width: 195px;
+	width: 197px;
 	height: 30px;
 	padding-top: 10px;
-	padding-left: 20px;
+	padding-left: 185px;
 }
 
-.footer a{
+.footer_menu a{
 	color: #4f4f4f;
 	text-decoration: none;
 }
 
-.footer li:hover{
+.footer_menu a:hover{
 	text-decoration: underline;	
 }
 
